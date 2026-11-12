@@ -1,0 +1,7 @@
+reference,modele,test,gain,bas,haut
+Sans la mémoire des lieux,Toutes les variables,années futures,0.01055996074635,0.00645859656707554,0.0145318091463441
+Sans la mémoire des lieux,Toutes les variables,région jamais vue,0.048265576517799,0.0430498177684504,0.0533778481973286
+Sans la mémoire des lieux,Sans mémoire + taux passé du département,années futures,0.00510002824777112,0.000906747434788333,0.00891221977536318
+Sans la mémoire des lieux,Sans mémoire + taux passé du département,région jamais vue,0.0394033305820876,0.0346349988687304,0.0439291203618906
+Sans la mémoire des lieux,Sans mémoire + taux passé de la commune,années futures,0.00849681224671439,0.00460225264750678,0.0119835535138248
+Sans la mémoire des lieux,Sans mémoire + taux passé de la commune,région jamais vue,0.0501880110216009,0.0454218337349075,0.0546623728989803

@@ -1,0 +1,6 @@
+modele,variables,nrounds,auc_futur,auc_region
+Météo et calendrier,34,112,0.668446639290206,0.628358911495495
+Sans la mémoire des lieux,157,222,0.761599668622786,0.697447596580708
+Toutes les variables,174,197,0.772159629369136,0.745713173098507
+Sans mémoire + taux passé du département,158,185,0.766699696870558,0.736850927162796
+Sans mémoire + taux passé de la commune,158,192,0.770096480869501,0.747635607602309

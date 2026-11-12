@@ -1,0 +1,17 @@
+# Données (brutes, intermédiaires, jeu final, sorties des calculs) : trop volumineuses pour GitHub
+donnees/
+
+# Python
+__pycache__/
+.venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf
+
+# Divers
+*.log
+.DS_Store
+Thumbs.db

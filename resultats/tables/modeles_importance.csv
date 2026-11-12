@@ -1,0 +1,332 @@
+modele,variable,shap_moy_abs,famille,memoire
+Toutes les variables,taux_echappement_commune_10ans_lisse,0.261606266038625,historique,TRUE
+Toutes les variables,humidite_alerte_pct,0.230987319305217,météo,FALSE
+Toutes les variables,taux_echappement_dep_10ans,0.133512135658887,historique,TRUE
+Toutes les variables,heure_alerte,0.119896049205221,calendrier,FALSE
+Toutes les variables,rafale_max_alerte_kmh,0.108386071859142,météo,FALSE
+Toutes les variables,jour_annee_cos,0.107988546750061,calendrier,FALSE
+Toutes les variables,vent_moyen_alerte_kmh,0.107852300183808,météo,FALSE
+Toutes les variables,taux_echappement_commune_10ans,0.094692981750025,historique,TRUE
+Toutes les variables,lon,0.0602031912664239,relief et position,TRUE
+Toutes les variables,annee,0.0553093468615423,calendrier,FALSE
+Toutes les variables,clc_part_pelouses,0.0531028383992569,végétation,FALSE
+Toutes les variables,bdfh_part_landes,0.0506112415585131,végétation,FALSE
+Toutes les variables,fwi_dispo_a_alerte,0.0476440780736604,météo,FALSE
+Toutes les variables,bdfh_part_pins_med,0.0465340649670258,végétation,FALSE
+Toutes les variables,etp_sim2_30j_mm,0.044745428929281,bilan hydrique,FALSE
+Toutes les variables,densite_connue_hab_km2,0.0385309510008091,présence humaine,FALSE
+Toutes les variables,evi_avant,0.0357434308409164,état de la végétation,FALSE
+Toutes les variables,precip_sim2_7j_mm,0.0346230059368901,bilan hydrique,FALSE
+Toutes les variables,indice_humidite_tendance_32j,0.0321559386305587,état de la végétation,FALSE
+Toutes les variables,clc_interface_habitat_comb_km_km2,0.0313888658966898,végétation,FALSE
+Toutes les variables,hr_min_veille_pct,0.0307671459206848,météo,FALSE
+Toutes les variables,pluie_3j_mm,0.0302537316670921,météo,FALSE
+Toutes les variables,dep,0.0286587939344885,relief et position,TRUE
+Toutes les variables,nordite_moy,0.0269930904392856,relief et position,FALSE
+Toutes les variables,pct_surface_brulee_commune_5ans,0.0262647153246174,historique,TRUE
+Toutes les variables,ndvi_avant,0.0247994876812016,état de la végétation,FALSE
+Toutes les variables,dist_caserne_km,0.0239351755955402,présence humaine,FALSE
+Toutes les variables,clc_interface_artif_comb_km_km2,0.0231865738232821,végétation,FALSE
+Toutes les variables,pluie_30j_mm,0.0227036594368718,météo,FALSE
+Toutes les variables,jour_annee_sin,0.0222824549474499,calendrier,FALSE
+Toutes les variables,nb_feux_dep_24h,0.0220207101764235,historique,FALSE
+Toutes les variables,bdf_part_landes,0.0218923328343893,végétation,FALSE
+Toutes les variables,swi_sim2,0.0205974833456574,bilan hydrique,FALSE
+Toutes les variables,bdf_surf_ouverte_mixte_ha,0.0196065434744473,végétation,FALSE
+Toutes les variables,tmax_veille_c,0.01959876140351,météo,FALSE
+Toutes les variables,temperature_alerte_c,0.019557208262182,météo,FALSE
+Toutes les variables,bdfh_part_pins_med_dans_foret,0.0194609221462441,végétation,FALSE
+Toutes les variables,pct_surface_brulee_commune_20ans,0.0188005144758572,historique,TRUE
+Toutes les variables,swi_sim2_anom_z,0.0185687901186241,bilan hydrique,FALSE
+Toutes les variables,indice_humidite_anom_z,0.0181305378850575,état de la végétation,FALSE
+Toutes les variables,alt_min_m,0.01760220130769,relief et position,FALSE
+Toutes les variables,surface_brulee_commune_20ans_ha,0.0168962524396236,historique,TRUE
+Toutes les variables,lat,0.0167362997139541,relief et position,TRUE
+Toutes les variables,pluie_7j_mm,0.0161984633945022,météo,FALSE
+Toutes les variables,ndvi_anom,0.0160575374887981,état de la végétation,FALSE
+Toutes les variables,nb_feux_commune_5ans,0.0158570296266985,historique,TRUE
+Toutes les variables,direction_vent_alerte_sin,0.0158075236880894,météo,FALSE
+Toutes les variables,nb_feux_commune_24h,0.0157781991157422,historique,FALSE
+Toutes les variables,bdf_part_pins_med,0.0155600896805009,végétation,FALSE
+Toutes les variables,dc_veille,0.0151251949898074,météo,FALSE
+Toutes les variables,bdf_part_ouverte_dans_foret,0.0148757246808581,végétation,FALSE
+Toutes les variables,bdfh_part_autres_feuillus,0.0146901941290145,végétation,FALSE
+Toutes les variables,indice_humidite_avant,0.0143560411417305,état de la végétation,FALSE
+Toutes les variables,alt_point_rep_m,0.0143465035565191,relief et position,FALSE
+Toutes les variables,ffmc_veille,0.0141506647831944,météo,FALSE
+Toutes les variables,bdf_part_foret_totale,0.0140486012011637,végétation,FALSE
+Toutes les variables,part_versant_sud,0.0140075644889616,relief et position,FALSE
+Toutes les variables,creneau,0.0138900532255477,calendrier,FALSE
+Toutes les variables,isi_veille,0.0138773586055873,météo,FALSE
+Toutes les variables,bdf_part_ouverte_mixte,0.0137555563263087,végétation,FALSE
+Toutes les variables,bdf_part_sans_couvert,0.0131862416200565,végétation,FALSE
+Toutes les variables,jour_annee,0.0130635092295264,calendrier,FALSE
+Toutes les variables,nb_feux_dep_jour_avant,0.0126793815755606,historique,FALSE
+Toutes les variables,clc_part_foret_coniferes,0.0125223878588791,végétation,FALSE
+Toutes les variables,clc_part_plus_grande_tache_combustible,0.0124656944861701,végétation,FALSE
+Toutes les variables,ndvi_tendance_32j,0.0120111840771728,état de la végétation,FALSE
+Toutes les variables,surface_brulee_commune_5ans_ha,0.0119600936824852,historique,TRUE
+Toutes les variables,indice_humidite_anom,0.0119385120563529,état de la végétation,FALSE
+Toutes les variables,wg_racine_sim2_anom,0.0117029399273451,bilan hydrique,FALSE
+Toutes les variables,evi_anom,0.0114711244621189,état de la végétation,FALSE
+Toutes les variables,alt_et_m,0.0113577353028771,relief et position,FALSE
+Toutes les variables,tri_moy_m,0.0111652289221385,relief et position,FALSE
+Toutes les variables,precip_sim2_30j_mm,0.011133854260234,bilan hydrique,FALSE
+Toutes les variables,bui_veille,0.0109428956838809,météo,FALSE
+Toutes les variables,annees_depuis_dernier_feu_10ha_commune,0.0105886054367759,historique,TRUE
+Toutes les variables,clc_part_agricole,0.0102831515543366,végétation,FALSE
+Toutes les variables,bdf_part_vegetation_cartographiee,0.00974715631721506,végétation,FALSE
+Toutes les variables,pct_surface_brulee_commune_10ans,0.00963224829983093,historique,TRUE
+Toutes les variables,bdf_surf_ouverte_feuillus_ha,0.00960222531992305,végétation,FALSE
+Toutes les variables,bdf_part_autres_feuillus,0.00956543740509469,végétation,FALSE
+Toutes les variables,bdfh_part_foret_fermee,0.00955893759681314,végétation,FALSE
+Toutes les variables,jour_semaine,0.00942965928650904,calendrier,FALSE
+Toutes les variables,evi_anom_z,0.00930157252066258,état de la végétation,FALSE
+Toutes les variables,estite_moy,0.00926059593187866,relief et position,FALSE
+Toutes les variables,clc_surf_massif_max_ha,0.0091619198119384,végétation,FALSE
+Toutes les variables,clc_part_plus_grande_tache_5km,0.00908877268600811,végétation,FALSE
+Toutes les variables,bdf_part_autres_coniferes,0.00889573358364984,végétation,FALSE
+Toutes les variables,clc_part_combustible_5km,0.00885441528288364,végétation,FALSE
+Toutes les variables,bdfh_part_autres_coniferes,0.00879273878671126,végétation,FALSE
+Toutes les variables,bdf_part_foret_ouverte,0.00878424445024928,végétation,FALSE
+Toutes les variables,clc_part_sclerophylle,0.00873648954245849,végétation,FALSE
+Toutes les variables,saison_feux,0.00871337014131634,calendrier,FALSE
+Toutes les variables,clc_part_foret_melangee,0.00863928304068664,végétation,FALSE
+Toutes les variables,bdfh_part_combustible,0.00847757908983527,végétation,FALSE
+Toutes les variables,ndvi_anom_z,0.00837542749359312,état de la végétation,FALSE
+Toutes les variables,bdf_part_ouverte_feuillus,0.00836717986781179,végétation,FALSE
+Toutes les variables,bdf_part_chenes_decidus,0.00815308419247685,végétation,FALSE
+Toutes les variables,clc_part_artificialise,0.00795544916965743,végétation,FALSE
+Toutes les variables,clc_part_foret_feuillus,0.0079102038794531,végétation,FALSE
+Toutes les variables,dist_cote_km,0.00782693290413479,relief et position,FALSE
+Toutes les variables,pente_moy_deg,0.00773407013688911,relief et position,FALSE
+Toutes les variables,vacances_scolaires_cl,0.00762213461115108,calendrier,FALSE
+Toutes les variables,surface_km2,0.00757327820875455,relief et position,FALSE
+Toutes les variables,alt_moy_m,0.00757034980953793,relief et position,FALSE
+Toutes les variables,clc_part_foret_arbustive_mutation,0.00744492153882014,végétation,FALSE
+Toutes les variables,bdf_part_pins_med_dans_foret,0.00705366182688006,végétation,FALSE
+Toutes les variables,bdf_surf_ouverte_coniferes_ha,0.00700738576789953,végétation,FALSE
+Toutes les variables,nb_feux_zone_24h,0.00690122313096051,historique,FALSE
+Toutes les variables,bdf_surf_sans_couvert_ha,0.00688432956559374,végétation,FALSE
+Toutes les variables,bdf_part_pin_alep,0.00678614362697141,végétation,FALSE
+Toutes les variables,direction_vent_alerte_cos,0.00653832177275958,météo,FALSE
+Toutes les variables,jours_depuis_pluie_1mm,0.00652649901419999,météo,FALSE
+Toutes les variables,nb_feux_commune_10ans,0.00651958426584596,historique,TRUE
+Toutes les variables,bdf_surf_foret_totale_ha,0.00642120216784007,végétation,FALSE
+Toutes les variables,nb_feux_commune_1an,0.00642072474697024,historique,TRUE
+Toutes les variables,bdfh_part_foret_totale,0.00641184043479712,végétation,FALSE
+Toutes les variables,swi_sim2_anom,0.00639430486958059,bilan hydrique,FALSE
+Toutes les variables,bdf_surf_pins_med_ha,0.00637384575448843,végétation,FALSE
+Toutes les variables,bdf_surf_autres_coniferes_ha,0.00611740260772072,végétation,FALSE
+Toutes les variables,vent_max_veille_kmh,0.0060258557941592,météo,FALSE
+Toutes les variables,bdfh_part_ouverte_dans_foret,0.00599966287965203,végétation,FALSE
+Toutes les variables,wg_racine_sim2_m3m3,0.00596259482272786,bilan hydrique,FALSE
+Toutes les variables,bdfh_part_chenes_sempervirents,0.00588511707341672,végétation,FALSE
+Toutes les variables,part_veg_naturelle,0.00580239937064417,état de la végétation,FALSE
+Toutes les variables,clc_part_veg_clairsemee,0.00575586207639242,végétation,FALSE
+Toutes les variables,bdf_part_chenes_sempervirents,0.00573534989999507,végétation,FALSE
+Toutes les variables,bdfh_part_foret_ouverte,0.00568597936618955,végétation,FALSE
+Toutes les variables,fwi_veille,0.00562319443429357,météo,FALSE
+Toutes les variables,dmc_veille,0.00562138700111135,météo,FALSE
+Toutes les variables,dens_routes_secondaires_locales_km_km2,0.00561916210275573,présence humaine,FALSE
+Toutes les variables,bdf_part_herbacees,0.0055909346528312,végétation,FALSE
+Toutes les variables,clc_part_combustible,0.00555087577850135,végétation,FALSE
+Toutes les variables,bdfh_part_melange_ferme,0.00542100051616271,végétation,FALSE
+Toutes les variables,part_pente_sup20,0.00521931450070855,relief et position,FALSE
+Toutes les variables,bdf_part_pin_noir_laricio,0.00516981915050111,végétation,FALSE
+Toutes les variables,bdf_part_foret_fermee,0.00507059082332777,végétation,FALSE
+Toutes les variables,bdf_surf_landes_ha,0.00500991764802077,végétation,FALSE
+Toutes les variables,clc_part_plus_grande_tache_commune,0.00490810492753083,végétation,FALSE
+Toutes les variables,bdf_surf_melange_ferme_ha,0.00484812189889678,végétation,FALSE
+Toutes les variables,bdf_surf_foret_fermee_ha,0.00471467419602282,végétation,FALSE
+Toutes les variables,bdf_part_melange_ferme,0.00469477278348381,végétation,FALSE
+Toutes les variables,clc_nb_taches_combustible,0.00450519745990246,végétation,FALSE
+Toutes les variables,surface_brulee_commune_10ans_ha,0.00446395207578119,historique,TRUE
+Toutes les variables,clc_part_zones_incendiees,0.00446228383856817,végétation,FALSE
+Toutes les variables,vacances_scolaires,0.00434429747889071,calendrier,FALSE
+Toutes les variables,bdf_part_ouverte_coniferes,0.00431930893635741,végétation,FALSE
+Toutes les variables,alt_max_m,0.00429073557328178,relief et position,FALSE
+Toutes les variables,bdf_part_combustible,0.00423498562391757,végétation,FALSE
+Toutes les variables,bdf_surf_pin_noir_laricio_ha,0.00417142452341288,végétation,FALSE
+Toutes les variables,bdf_surf_chenes_sempervirents_ha,0.00411653622893345,végétation,FALSE
+Toutes les variables,bdf_surf_foret_ouverte_ha,0.00409058581815971,végétation,FALSE
+Toutes les variables,population_connue_hab,0.00396504348612092,présence humaine,FALSE
+Toutes les variables,bdf_surf_chenes_decidus_ha,0.00378329662675466,végétation,FALSE
+Toutes les variables,bdf_surf_pin_sylvestre_ha,0.00372527921708262,végétation,FALSE
+Toutes les variables,bdf_surf_autres_feuillus_ha,0.00361295200050922,végétation,FALSE
+Toutes les variables,bdf_surf_vegetation_cartographiee_ha,0.00348992192458965,végétation,FALSE
+Toutes les variables,direction_vent_alerte_secteur,0.00327426029490665,météo,FALSE
+Toutes les variables,nb_casernes_10km,0.00310012482537508,présence humaine,FALSE
+Toutes les variables,part_pente_sup30,0.0029962269616064,relief et position,FALSE
+Toutes les variables,dens_routes_principales_km_km2,0.00263379699383646,présence humaine,FALSE
+Toutes les variables,bdf_surf_herbacees_ha,0.00259947701835989,végétation,FALSE
+Toutes les variables,bdf_part_pin_sylvestre,0.00255057655931439,végétation,FALSE
+Toutes les variables,bdf_surf_combustible_ha,0.00194830913716529,végétation,FALSE
+Toutes les variables,bdf_surf_pin_maritime_ha,0.00184533068109038,végétation,FALSE
+Toutes les variables,bdfh_part_herbacees,0.00178789020530776,végétation,FALSE
+Toutes les variables,clc_part_landes,0.00176841615879115,végétation,FALSE
+Toutes les variables,mois,0.00176072047479242,calendrier,FALSE
+Toutes les variables,bdf_part_peupleraies,0.00107831016966136,végétation,FALSE
+Toutes les variables,jour_ferie,0.00105937957686611,calendrier,FALSE
+Toutes les variables,bdf_part_pin_maritime,0.000612942312422702,végétation,FALSE
+Toutes les variables,week_end,0.00037515430881159,calendrier,FALSE
+Toutes les variables,bdf_surf_pin_alep_ha,0.000362389058804006,végétation,FALSE
+Toutes les variables,bdf_surf_peupleraies_ha,0,végétation,FALSE
+Toutes les variables,dernier_feu_10ha_censure,0,historique,TRUE
+Sans la mémoire des lieux,humidite_alerte_pct,0.242810778186471,météo,FALSE
+Sans la mémoire des lieux,clc_interface_habitat_comb_km_km2,0.164972784985556,végétation,FALSE
+Sans la mémoire des lieux,bdfh_part_pins_med,0.150533373713383,végétation,FALSE
+Sans la mémoire des lieux,bdfh_part_landes,0.130223770723483,végétation,FALSE
+Sans la mémoire des lieux,heure_alerte,0.118637379600335,calendrier,FALSE
+Sans la mémoire des lieux,rafale_max_alerte_kmh,0.115749785198855,météo,FALSE
+Sans la mémoire des lieux,jour_annee_cos,0.110317768338807,calendrier,FALSE
+Sans la mémoire des lieux,clc_surf_massif_max_ha,0.0958996125567363,végétation,FALSE
+Sans la mémoire des lieux,vent_moyen_alerte_kmh,0.095819784463157,météo,FALSE
+Sans la mémoire des lieux,ndvi_avant,0.0888616440138551,état de la végétation,FALSE
+Sans la mémoire des lieux,clc_part_foret_coniferes,0.0598589122466961,végétation,FALSE
+Sans la mémoire des lieux,nb_feux_dep_24h,0.0590405271610299,historique,FALSE
+Sans la mémoire des lieux,evi_avant,0.0546395908139589,état de la végétation,FALSE
+Sans la mémoire des lieux,clc_part_pelouses,0.053197812234584,végétation,FALSE
+Sans la mémoire des lieux,dist_caserne_km,0.0525038438920382,présence humaine,FALSE
+Sans la mémoire des lieux,fwi_dispo_a_alerte,0.0508094245845078,météo,FALSE
+Sans la mémoire des lieux,annee,0.045597821537066,calendrier,FALSE
+Sans la mémoire des lieux,clc_interface_artif_comb_km_km2,0.0429760227586644,végétation,FALSE
+Sans la mémoire des lieux,bdfh_part_pins_med_dans_foret,0.0402929904560591,végétation,FALSE
+Sans la mémoire des lieux,precip_sim2_7j_mm,0.0355931379009752,bilan hydrique,FALSE
+Sans la mémoire des lieux,dist_cote_km,0.0353130819744354,relief et position,FALSE
+Sans la mémoire des lieux,pluie_30j_mm,0.0331316766834545,météo,FALSE
+Sans la mémoire des lieux,bdf_part_ouverte_mixte,0.0328995702867655,végétation,FALSE
+Sans la mémoire des lieux,etp_sim2_30j_mm,0.0321235408954099,bilan hydrique,FALSE
+Sans la mémoire des lieux,hr_min_veille_pct,0.0290948369538278,météo,FALSE
+Sans la mémoire des lieux,clc_part_agricole,0.0287727487902463,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_sans_couvert,0.0286465910711514,végétation,FALSE
+Sans la mémoire des lieux,ffmc_veille,0.0283404544929604,météo,FALSE
+Sans la mémoire des lieux,pluie_3j_mm,0.0279754643339895,météo,FALSE
+Sans la mémoire des lieux,clc_part_foret_arbustive_mutation,0.026867156345715,végétation,FALSE
+Sans la mémoire des lieux,surface_km2,0.0256774414364784,relief et position,FALSE
+Sans la mémoire des lieux,nordite_moy,0.0246186600776375,relief et position,FALSE
+Sans la mémoire des lieux,indice_humidite_tendance_32j,0.0242881301660713,état de la végétation,FALSE
+Sans la mémoire des lieux,bdf_part_chenes_sempervirents,0.0240009829068615,végétation,FALSE
+Sans la mémoire des lieux,estite_moy,0.0234245188558516,relief et position,FALSE
+Sans la mémoire des lieux,bdfh_part_foret_fermee,0.023380196272703,végétation,FALSE
+Sans la mémoire des lieux,densite_connue_hab_km2,0.0217013014666034,présence humaine,FALSE
+Sans la mémoire des lieux,tmax_veille_c,0.0216252190485153,météo,FALSE
+Sans la mémoire des lieux,direction_vent_alerte_cos,0.0211702562041291,météo,FALSE
+Sans la mémoire des lieux,bdfh_part_autres_feuillus,0.0208527675355263,végétation,FALSE
+Sans la mémoire des lieux,clc_nb_taches_combustible,0.019880496800173,végétation,FALSE
+Sans la mémoire des lieux,bdfh_part_herbacees,0.0197549416425767,végétation,FALSE
+Sans la mémoire des lieux,jour_annee_sin,0.0192911627666095,calendrier,FALSE
+Sans la mémoire des lieux,alt_min_m,0.0191337491343021,relief et position,FALSE
+Sans la mémoire des lieux,part_versant_sud,0.0184196713085469,relief et position,FALSE
+Sans la mémoire des lieux,bdf_surf_chenes_sempervirents_ha,0.0182286889660557,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_pins_med,0.0180245697107868,végétation,FALSE
+Sans la mémoire des lieux,clc_part_foret_feuillus,0.0179237519259367,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_ouverte_mixte_ha,0.0169173609564459,végétation,FALSE
+Sans la mémoire des lieux,dc_veille,0.0168548120483033,météo,FALSE
+Sans la mémoire des lieux,indice_humidite_anom_z,0.0162383414180526,état de la végétation,FALSE
+Sans la mémoire des lieux,bdf_part_ouverte_dans_foret,0.0161839544586232,végétation,FALSE
+Sans la mémoire des lieux,pluie_7j_mm,0.0159577922474916,météo,FALSE
+Sans la mémoire des lieux,part_veg_naturelle,0.015737619789802,état de la végétation,FALSE
+Sans la mémoire des lieux,alt_point_rep_m,0.0157165504528319,relief et position,FALSE
+Sans la mémoire des lieux,ndvi_anom,0.0155660768914921,état de la végétation,FALSE
+Sans la mémoire des lieux,bdfh_part_autres_coniferes,0.0153807154553908,végétation,FALSE
+Sans la mémoire des lieux,part_pente_sup20,0.0152641232551459,relief et position,FALSE
+Sans la mémoire des lieux,clc_part_artificialise,0.0150689341070924,végétation,FALSE
+Sans la mémoire des lieux,bdfh_part_foret_ouverte,0.0149774351037965,végétation,FALSE
+Sans la mémoire des lieux,clc_part_combustible_5km,0.0148957865767837,végétation,FALSE
+Sans la mémoire des lieux,temperature_alerte_c,0.0142733793697622,météo,FALSE
+Sans la mémoire des lieux,ndvi_anom_z,0.0139861115937816,état de la végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_autres_feuillus_ha,0.0139219756473445,végétation,FALSE
+Sans la mémoire des lieux,evi_anom,0.0138496866024393,état de la végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_sans_couvert_ha,0.0137762002567628,végétation,FALSE
+Sans la mémoire des lieux,clc_part_foret_melangee,0.0135617878928679,végétation,FALSE
+Sans la mémoire des lieux,swi_sim2_anom_z,0.0134952334480702,bilan hydrique,FALSE
+Sans la mémoire des lieux,bdf_surf_pins_med_ha,0.0134796491920369,végétation,FALSE
+Sans la mémoire des lieux,direction_vent_alerte_sin,0.0131250105792513,météo,FALSE
+Sans la mémoire des lieux,clc_part_plus_grande_tache_combustible,0.0129496505507655,végétation,FALSE
+Sans la mémoire des lieux,swi_sim2,0.0127493076340514,bilan hydrique,FALSE
+Sans la mémoire des lieux,bdf_part_autres_coniferes,0.0126907211095176,végétation,FALSE
+Sans la mémoire des lieux,nb_feux_commune_24h,0.0126100695984823,historique,FALSE
+Sans la mémoire des lieux,wg_racine_sim2_m3m3,0.0125311538861258,bilan hydrique,FALSE
+Sans la mémoire des lieux,nb_feux_dep_jour_avant,0.0125046748377313,historique,FALSE
+Sans la mémoire des lieux,precip_sim2_30j_mm,0.0122978218804973,bilan hydrique,FALSE
+Sans la mémoire des lieux,jour_annee,0.01215646665148,calendrier,FALSE
+Sans la mémoire des lieux,bdfh_part_foret_totale,0.012009408242392,végétation,FALSE
+Sans la mémoire des lieux,population_connue_hab,0.0119115196665564,présence humaine,FALSE
+Sans la mémoire des lieux,bdf_part_foret_totale,0.011744208881108,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_landes,0.0116465437564945,végétation,FALSE
+Sans la mémoire des lieux,alt_moy_m,0.0116345614229867,relief et position,FALSE
+Sans la mémoire des lieux,direction_vent_alerte_secteur,0.0113263299081598,météo,FALSE
+Sans la mémoire des lieux,bdfh_part_combustible,0.0113057025040122,végétation,FALSE
+Sans la mémoire des lieux,vacances_scolaires,0.0112679520443423,calendrier,FALSE
+Sans la mémoire des lieux,clc_part_sclerophylle,0.0111730052929199,végétation,FALSE
+Sans la mémoire des lieux,bdfh_part_chenes_sempervirents,0.0111208828412361,végétation,FALSE
+Sans la mémoire des lieux,clc_part_plus_grande_tache_commune,0.0110449260784441,végétation,FALSE
+Sans la mémoire des lieux,tri_moy_m,0.010771626889919,relief et position,FALSE
+Sans la mémoire des lieux,jour_semaine,0.0107256785093163,calendrier,FALSE
+Sans la mémoire des lieux,alt_max_m,0.0105896988611731,relief et position,FALSE
+Sans la mémoire des lieux,fwi_veille,0.0105885763336239,météo,FALSE
+Sans la mémoire des lieux,creneau,0.0101899496190119,calendrier,FALSE
+Sans la mémoire des lieux,bdf_part_pins_med_dans_foret,0.0101324225032439,végétation,FALSE
+Sans la mémoire des lieux,isi_veille,0.0097365526222184,météo,FALSE
+Sans la mémoire des lieux,clc_part_veg_clairsemee,0.00960656293835489,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_pin_maritime_ha,0.00950082333352461,végétation,FALSE
+Sans la mémoire des lieux,indice_humidite_anom,0.00918310572443049,état de la végétation,FALSE
+Sans la mémoire des lieux,vent_max_veille_kmh,0.00886487775253162,météo,FALSE
+Sans la mémoire des lieux,bdfh_part_ouverte_dans_foret,0.00855258682103255,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_autres_feuillus,0.008411913266095,végétation,FALSE
+Sans la mémoire des lieux,clc_part_plus_grande_tache_5km,0.00821482894875417,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_herbacees,0.00816163093079907,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_foret_fermee,0.00807956022658114,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_landes_ha,0.00793967712178319,végétation,FALSE
+Sans la mémoire des lieux,evi_anom_z,0.00793310157676107,état de la végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_ouverte_feuillus_ha,0.00785390983444152,végétation,FALSE
+Sans la mémoire des lieux,alt_et_m,0.0077960145698604,relief et position,FALSE
+Sans la mémoire des lieux,bdf_surf_ouverte_coniferes_ha,0.00778516427698857,végétation,FALSE
+Sans la mémoire des lieux,dmc_veille,0.0077324695482964,météo,FALSE
+Sans la mémoire des lieux,bdf_surf_chenes_decidus_ha,0.00744235533382515,végétation,FALSE
+Sans la mémoire des lieux,clc_part_combustible,0.00741170912535334,végétation,FALSE
+Sans la mémoire des lieux,swi_sim2_anom,0.00735611108779263,bilan hydrique,FALSE
+Sans la mémoire des lieux,bui_veille,0.00731928996420806,météo,FALSE
+Sans la mémoire des lieux,dens_routes_secondaires_locales_km_km2,0.00718665552417928,présence humaine,FALSE
+Sans la mémoire des lieux,bdf_part_ouverte_feuillus,0.00709563612518211,végétation,FALSE
+Sans la mémoire des lieux,pente_moy_deg,0.00706115594287112,relief et position,FALSE
+Sans la mémoire des lieux,ndvi_tendance_32j,0.00704085564749821,état de la végétation,FALSE
+Sans la mémoire des lieux,bdf_part_pin_noir_laricio,0.00696611465840722,végétation,FALSE
+Sans la mémoire des lieux,indice_humidite_avant,0.00696552275508737,état de la végétation,FALSE
+Sans la mémoire des lieux,nb_casernes_10km,0.00678092920264783,présence humaine,FALSE
+Sans la mémoire des lieux,bdf_surf_melange_ferme_ha,0.00630084623110148,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_foret_fermee_ha,0.00605165432570728,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_pin_alep_ha,0.00596563001529755,végétation,FALSE
+Sans la mémoire des lieux,wg_racine_sim2_anom,0.00586435138295753,bilan hydrique,FALSE
+Sans la mémoire des lieux,bdf_part_foret_ouverte,0.00580894976439425,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_autres_coniferes_ha,0.00555290364262327,végétation,FALSE
+Sans la mémoire des lieux,bdfh_part_melange_ferme,0.00547299300523619,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_vegetation_cartographiee,0.00537944424763209,végétation,FALSE
+Sans la mémoire des lieux,part_pente_sup30,0.00530126650814991,relief et position,FALSE
+Sans la mémoire des lieux,bdf_part_pin_sylvestre,0.00502220085829587,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_pin_sylvestre_ha,0.00467629741343277,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_combustible,0.00455013102270151,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_foret_ouverte_ha,0.00432945408195371,végétation,FALSE
+Sans la mémoire des lieux,jours_depuis_pluie_1mm,0.00429843535514142,météo,FALSE
+Sans la mémoire des lieux,dens_routes_principales_km_km2,0.0041988401552661,présence humaine,FALSE
+Sans la mémoire des lieux,bdf_part_pin_alep,0.00397493190941951,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_melange_ferme,0.00394072096535999,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_combustible_ha,0.0033298540484861,végétation,FALSE
+Sans la mémoire des lieux,clc_part_zones_incendiees,0.00326745687842071,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_herbacees_ha,0.00296577317425234,végétation,FALSE
+Sans la mémoire des lieux,vacances_scolaires_cl,0.00284408967940518,calendrier,FALSE
+Sans la mémoire des lieux,clc_part_landes,0.00276910100628568,végétation,FALSE
+Sans la mémoire des lieux,mois,0.00244571502689629,calendrier,FALSE
+Sans la mémoire des lieux,nb_feux_zone_24h,0.00241562530873378,historique,FALSE
+Sans la mémoire des lieux,bdf_surf_vegetation_cartographiee_ha,0.00235619653793292,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_chenes_decidus,0.0022693810311999,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_foret_totale_ha,0.00225271069923876,végétation,FALSE
+Sans la mémoire des lieux,bdf_part_ouverte_coniferes,0.00193937715928404,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_pin_noir_laricio_ha,0.000483336906177212,végétation,FALSE
+Sans la mémoire des lieux,jour_ferie,0.000480845587745749,calendrier,FALSE
+Sans la mémoire des lieux,bdf_part_pin_maritime,0.000433750614153808,végétation,FALSE
+Sans la mémoire des lieux,week_end,0.000385455378688126,calendrier,FALSE
+Sans la mémoire des lieux,bdf_part_peupleraies,0,végétation,FALSE
+Sans la mémoire des lieux,bdf_surf_peupleraies_ha,0,végétation,FALSE
+Sans la mémoire des lieux,saison_feux,0,calendrier,FALSE
