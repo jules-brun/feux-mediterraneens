@@ -1,0 +1,95 @@
+modele,niveau,a,b,interaction_moy_abs
+Toutes les variables,variables,annee,taux_echappement_commune_10ans_lisse,0.0280772160943598
+Toutes les variables,variables,annee,taux_echappement_dep_10ans,0.0274195942385122
+Toutes les variables,variables,vent_moyen_alerte_kmh,taux_echappement_commune_10ans_lisse,0.0239291026077699
+Toutes les variables,variables,jour_annee_cos,vent_moyen_alerte_kmh,0.0214430783455027
+Toutes les variables,variables,rafale_max_alerte_kmh,taux_echappement_commune_10ans_lisse,0.0214376044716337
+Toutes les variables,variables,jour_annee_cos,humidite_alerte_pct,0.0209890555937309
+Toutes les variables,variables,humidite_alerte_pct,taux_echappement_commune_10ans_lisse,0.02004588220187
+Toutes les variables,variables,clc_part_pelouses,taux_echappement_commune_10ans_lisse,0.0188755257737357
+Toutes les variables,variables,jour_annee_cos,taux_echappement_commune_10ans_lisse,0.0165931013342924
+Toutes les variables,variables,humidite_alerte_pct,taux_echappement_dep_10ans,0.0148736785748042
+Toutes les variables,variables,annee,indice_humidite_anom_z,0.0148300247047446
+Toutes les variables,variables,jour_annee_cos,taux_echappement_dep_10ans,0.0147876473511569
+Toutes les variables,variables,heure_alerte,pct_surface_brulee_commune_5ans,0.0147403764048358
+Toutes les variables,variables,heure_alerte,humidite_alerte_pct,0.0146563409774099
+Toutes les variables,variables,humidite_alerte_pct,taux_echappement_commune_10ans,0.0141488824042026
+Toutes les variables,groupes,végétation,mémoire des lieux,0.0895848437136683
+Toutes les variables,groupes,météo,mémoire des lieux,0.0783038002693156
+Toutes les variables,groupes,calendrier,mémoire des lieux,0.0755406464917887
+Toutes les variables,groupes,météo,végétation,0.0725710530499146
+Toutes les variables,groupes,calendrier,météo,0.0652218305394472
+Toutes les variables,groupes,calendrier,végétation,0.0478677290818341
+Toutes les variables,groupes,état de la végétation,mémoire des lieux,0.0365398181440596
+Toutes les variables,groupes,végétation,état de la végétation,0.0359294549126571
+Toutes les variables,groupes,météo,bilan hydrique,0.0327830228049825
+Toutes les variables,groupes,bilan hydrique,mémoire des lieux,0.031441476257789
+Toutes les variables,groupes,météo,état de la végétation,0.0289706895157269
+Toutes les variables,groupes,bilan hydrique,végétation,0.0271416312619131
+Toutes les variables,groupes,mémoire des lieux,relief et position,0.0263054988038875
+Toutes les variables,groupes,météo,relief et position,0.0261932652521737
+Toutes les variables,groupes,végétation,relief et position,0.0244196741679643
+Toutes les variables,groupes,calendrier,état de la végétation,0.0239763465551441
+Toutes les variables,groupes,calendrier,relief et position,0.0199000935386921
+Toutes les variables,groupes,mémoire des lieux,historique,0.0186690855471024
+Toutes les variables,groupes,météo,historique,0.0161958053492745
+Toutes les variables,groupes,mémoire des lieux,présence humaine,0.015867525016778
+Toutes les variables,groupes,état de la végétation,relief et position,0.0156055963251711
+Toutes les variables,groupes,végétation,présence humaine,0.0153807246819124
+Toutes les variables,groupes,bilan hydrique,relief et position,0.0150599214636968
+Toutes les variables,groupes,bilan hydrique,état de la végétation,0.0148947985247542
+Toutes les variables,groupes,calendrier,bilan hydrique,0.0144406346104079
+Toutes les variables,groupes,météo,présence humaine,0.0136525289864821
+Toutes les variables,groupes,végétation,historique,0.013319234135015
+Toutes les variables,groupes,relief et position,présence humaine,0.0122037028589548
+Toutes les variables,groupes,calendrier,présence humaine,0.0110483766768521
+Toutes les variables,groupes,état de la végétation,présence humaine,0.00906089647273984
+Toutes les variables,groupes,bilan hydrique,historique,0.00780096972914907
+Toutes les variables,groupes,bilan hydrique,présence humaine,0.00734845254727043
+Toutes les variables,groupes,état de la végétation,historique,0.00560715688261917
+Toutes les variables,groupes,relief et position,historique,0.00511153259742787
+Toutes les variables,groupes,calendrier,historique,0.00461705855223045
+Toutes les variables,groupes,présence humaine,historique,0.00441581189259523
+Sans la mémoire des lieux,variables,clc_interface_habitat_comb_km_km2,ndvi_avant,0.0402363493090961
+Sans la mémoire des lieux,variables,bdfh_part_pins_med,ndvi_avant,0.0268520769840106
+Sans la mémoire des lieux,variables,rafale_max_alerte_kmh,bdfh_part_pins_med,0.0251161840026034
+Sans la mémoire des lieux,variables,jour_annee_cos,humidite_alerte_pct,0.0244201762354933
+Sans la mémoire des lieux,variables,humidite_alerte_pct,bdfh_part_pins_med,0.0207980080071429
+Sans la mémoire des lieux,variables,clc_interface_habitat_comb_km_km2,evi_avant,0.0203606704639969
+Sans la mémoire des lieux,variables,humidite_alerte_pct,clc_interface_habitat_comb_km_km2,0.0178439376112074
+Sans la mémoire des lieux,variables,jour_annee_cos,clc_surf_massif_max_ha,0.0175448933154403
+Sans la mémoire des lieux,variables,heure_alerte,humidite_alerte_pct,0.0174522804163862
+Sans la mémoire des lieux,variables,jour_annee_cos,bdfh_part_landes,0.0172162635943387
+Sans la mémoire des lieux,variables,bdfh_part_pins_med,clc_interface_habitat_comb_km_km2,0.0169535421747714
+Sans la mémoire des lieux,variables,heure_alerte,rafale_max_alerte_kmh,0.0167146973504568
+Sans la mémoire des lieux,variables,humidite_alerte_pct,vent_moyen_alerte_kmh,0.0165130761887995
+Sans la mémoire des lieux,variables,humidite_alerte_pct,clc_part_pelouses,0.0164131132074399
+Sans la mémoire des lieux,variables,jour_annee_cos,clc_interface_habitat_comb_km_km2,0.0164006303002825
+Sans la mémoire des lieux,groupes,météo,végétation,0.1137584686555
+Sans la mémoire des lieux,groupes,végétation,état de la végétation,0.0977084053719318
+Sans la mémoire des lieux,groupes,végétation,relief et position,0.0716199336589934
+Sans la mémoire des lieux,groupes,calendrier,végétation,0.0706287865619652
+Sans la mémoire des lieux,groupes,calendrier,météo,0.0694154514860111
+Sans la mémoire des lieux,groupes,végétation,présence humaine,0.040842094991147
+Sans la mémoire des lieux,groupes,bilan hydrique,végétation,0.0375925864416877
+Sans la mémoire des lieux,groupes,météo,état de la végétation,0.0335654925660456
+Sans la mémoire des lieux,groupes,végétation,historique,0.0331988720964764
+Sans la mémoire des lieux,groupes,météo,relief et position,0.03142007152119
+Sans la mémoire des lieux,groupes,météo,bilan hydrique,0.0273639825766368
+Sans la mémoire des lieux,groupes,météo,historique,0.0253379656534817
+Sans la mémoire des lieux,groupes,calendrier,état de la végétation,0.0252831309799021
+Sans la mémoire des lieux,groupes,météo,présence humaine,0.0201179330281575
+Sans la mémoire des lieux,groupes,état de la végétation,relief et position,0.0199403020914615
+Sans la mémoire des lieux,groupes,calendrier,relief et position,0.0198670442109269
+Sans la mémoire des lieux,groupes,calendrier,présence humaine,0.0171221158000553
+Sans la mémoire des lieux,groupes,relief et position,présence humaine,0.016711426547472
+Sans la mémoire des lieux,groupes,calendrier,bilan hydrique,0.0140094098854643
+Sans la mémoire des lieux,groupes,bilan hydrique,état de la végétation,0.0137170811866126
+Sans la mémoire des lieux,groupes,état de la végétation,présence humaine,0.0135140823449474
+Sans la mémoire des lieux,groupes,bilan hydrique,relief et position,0.0131667393157168
+Sans la mémoire des lieux,groupes,relief et position,historique,0.01113939226804
+Sans la mémoire des lieux,groupes,état de la végétation,historique,0.0108331179389279
+Sans la mémoire des lieux,groupes,bilan hydrique,présence humaine,0.00966415628335562
+Sans la mémoire des lieux,groupes,calendrier,historique,0.00950515163502132
+Sans la mémoire des lieux,groupes,bilan hydrique,historique,0.00740419356512211
+Sans la mémoire des lieux,groupes,présence humaine,historique,0.0044398863417664

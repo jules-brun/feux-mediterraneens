@@ -19,15 +19,7 @@ METEO_V <- NUM[famille_d(NUM) == "météo et végétation vivante"]
 VALEURS <- lapply(setNames(NUM, NUM), function(v) as.numeric(feux[[v]]))
 JOUR <- as.integer(as.Date(feux$date_alerte_utc, tz = "UTC"))   # journée de l'alerte (date UTC)
 
-# Distances entre l'échantillon a (cible) et l'échantillon b (référence), valeurs manquantes retirées
-w1_ks <- function(a, b) {
-  a <- a[!is.na(a)]
-  b <- b[!is.na(b)]
-  if (length(a) < 30 || length(b) < 30) return(c(w1 = NA, ks = NA))
-  v <- sort(unique(c(a, b)))
-  ecart <- abs(ecdf(a)(v) - ecdf(b)(v))
-  c(w1 = sum(ecart[-length(v)] * diff(v)) / sd(b), ks = max(ecart))
-}
+# Distances entre l'échantillon a (cible) et l'échantillon b (référence) : w1_ks() de commun.R
 distances <- function(ia, ib, vars = NUM) rbindlist(lapply(vars, function(v) {
   x <- VALEURS[[v]]
   r <- w1_ks(x[ia], x[ib])

@@ -1,7 +1,7 @@
 # Socle commun : données, échantillon, familles de variables, protocole XGBoost, mesures
 #
 # Sourcé en tête de chaque script (source("analyses/commun.R")), depuis la racine du dépôt.
-# Entrée : donnees/final/feux_med_2006_2024.parquet (jeu publié sur Kaggle).
+# Entrée : donnees/final/feux_med_2006_2024.parquet, ou feux_med_2006_2024.csv avec data_dictionary.csv (jeu Kaggle).
 # Protocole commun à toutes les comparaisons : même échantillon, mêmes découpages (temps : apprentissage
 # 2006-2018, test 2019-2024 ; espace : 6 régions tour à tour jamais vues), mêmes hyperparamètres ; seul le
 # nombre d'arbres est choisi, par validation croisée sur des blocs d'années, de la même façon pour chaque modèle.
@@ -14,7 +14,33 @@ dir.create("resultats/tables", recursive = TRUE, showWarnings = FALSE)
 dir.create("donnees/modeles", recursive = TRUE, showWarnings = FALSE)
 
 # Données ------------------------------------------------------------------------------------------------
-jeu <- as.data.table(arrow::read_parquet("donnees/final/feux_med_2006_2024.parquet"))   # 31 942 feux
+# Jeu au format .parquet ou, à défaut, .csv. Le .csv ne garde pas les types : ils sont rétablis d'après le
+# dictionnaire des colonnes (data_dictionary.csv, à placer dans le même dossier) : codes INSEE et départements
+# en texte (zéros initiaux), modalités dans l'ordre du dictionnaire, booléens, dates. L'heure locale date_alerte
+# est déduite de date_alerte_utc (même instant), ce qui évite l'heure ambiguë du passage à l'heure d'hiver.
+lire_jeu <- function(dossier = "donnees/final") {
+  parquet <- file.path(dossier, "feux_med_2006_2024.parquet")
+  if (file.exists(parquet)) return(as.data.table(arrow::read_parquet(parquet)))
+  dico <- fread(file.path(dossier, "data_dictionary.csv"), encoding = "UTF-8")
+  lecture <- c(character = "character", factor = "character", date = "character", datetime = "character",
+               logical = "logical", integer = "integer", double = "double")
+  jeu <- fread(file.path(dossier, "feux_med_2006_2024.csv"), encoding = "UTF-8", na.strings = "",
+               colClasses = setNames(lecture[dico$r_type], dico$column))
+  stopifnot(identical(names(jeu), dico$column))
+  for (i in which(dico$r_type == "factor")) {
+    v <- dico$column[i]
+    niveaux <- strsplit(dico$levels[i], "|", fixed = TRUE)[[1]]
+    stopifnot(all(jeu[[v]] %in% c(niveaux, NA)))
+    set(jeu, j = v, value = factor(jeu[[v]], levels = niveaux))
+  }
+  for (v in dico[r_type == "date", column]) set(jeu, j = v, value = as.IDate(jeu[[v]]))
+  local <- jeu$date_alerte
+  set(jeu, j = "date_alerte_utc", value = as.POSIXct(jeu$date_alerte_utc, tz = "UTC"))
+  set(jeu, j = "date_alerte", value = `attr<-`(jeu$date_alerte_utc, "tzone", "Europe/Paris"))
+  stopifnot(identical(format(jeu$date_alerte, "%Y-%m-%d %H:%M:%S"), local))
+  jeu
+}
+jeu <- lire_jeu()   # 31 942 feux
 # Les nombres décimaux sont ramenés à 8 chiffres significatifs, comme dans les versions .csv et .rds du jeu sur
 # lesquelles ont été calculés les chiffres du diaporama (sinon les arbres d'XGBoost changent un peu)
 decimaux <- names(jeu)[sapply(jeu, function(x) is.double(x) && !inherits(x, "POSIXct"))]
@@ -130,6 +156,20 @@ gain_auc <- function(pA, pB, y, B = 1000) {
   data.table(gain = auc(pB, y) - auc(pA, y), bas = quantile(g, 0.025, names = FALSE),
              haut = quantile(g, 0.975, names = FALSE))
 }
+# Distances entre les distributions d'une variable dans l'échantillon a (cible) et l'échantillon b (référence), valeurs
+# manquantes retirées : Wasserstein-1 (aire entre les fonctions de répartition, en écarts-types de b) et Kolmogorov-Smirnov
+# (écart maximal entre les fonctions de répartition) ; NA si moins de 30 valeurs d'un côté
+w1_ks <- function(a, b) {
+  a <- a[!is.na(a)]
+  b <- b[!is.na(b)]
+  if (length(a) < 30 || length(b) < 30) return(c(w1 = NA, ks = NA))
+  v <- sort(unique(c(a, b)))
+  ecart <- abs(ecdf(a)(v) - ecdf(b)(v))
+  c(w1 = sum(ecart[-length(v)] * diff(v)) / sd(b), ks = max(ecart))
+}
+# Contribution en log-odds (valeur de Shapley) traduite en points de probabilité autour d'un taux de référence p0
+# (par défaut le taux d'échappement de l'échantillon, 22,7 %) : p0 = 22,7 % et phi = +0,5 donnent +9,9 points
+en_points <- function(phi, p0 = mean(feux$y_1ha)) plogis(qlogis(p0) + phi) - p0
 # Intervalle de Wilson à 95 % d'une proportion k / n
 wilson <- function(k, n, z = 1.96) {
   p <- k / n

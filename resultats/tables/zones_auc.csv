@@ -1,0 +1,64 @@
+comparaison,feux_zone,feux_reste,ensemble,variables,auc
+Nord contre sud,2742,19603,Toutes (hors mémoire),156,0.997745157495915
+Nord contre sud,2742,19603,Calendrier,12,0.635937760981448
+Nord contre sud,2742,19603,Météo,21,0.832464565684267
+Nord contre sud,2742,19603,Bilan hydrique,8,0.821026524952101
+Nord contre sud,2742,19603,Végétation,79,0.979389644471944
+Nord contre sud,2742,19603,État de la végétation,12,0.798987444537751
+Nord contre sud,2742,19603,Relief et position,14,0.9963369715996
+Nord contre sud,2742,19603,Présence humaine,6,0.778552033205594
+Nord contre sud,2742,19603,Autres départs récents,4,0.656784045133984
+Ardèche-Drôme contre le reste,1392,20953,Toutes (hors mémoire),156,0.992705348752627
+Ardèche-Drôme contre le reste,1392,20953,Calendrier,12,0.582622039693655
+Ardèche-Drôme contre le reste,1392,20953,Météo,21,0.83629189110165
+Ardèche-Drôme contre le reste,1392,20953,Bilan hydrique,8,0.835322425230853
+Ardèche-Drôme contre le reste,1392,20953,Végétation,79,0.84482971192779
+Ardèche-Drôme contre le reste,1392,20953,État de la végétation,12,0.790959761612059
+Ardèche-Drôme contre le reste,1392,20953,Relief et position,14,0.99859314991242
+Ardèche-Drôme contre le reste,1392,20953,Présence humaine,6,0.8482854826703
+Ardèche-Drôme contre le reste,1392,20953,Autres départs récents,4,0.616229601308018
+Corse contre le reste,7560,14785,Toutes (hors mémoire),156,0.99992763114339
+Corse contre le reste,7560,14785,Calendrier,12,0.684676719934583
+Corse contre le reste,7560,14785,Météo,21,0.840460167157834
+Corse contre le reste,7560,14785,Bilan hydrique,8,0.860573927350221
+Corse contre le reste,7560,14785,Végétation,79,0.998940626940289
+Corse contre le reste,7560,14785,État de la végétation,12,0.851505529878881
+Corse contre le reste,7560,14785,Relief et position,14,0.977596708017743
+Corse contre le reste,7560,14785,Présence humaine,6,0.822977492203059
+Corse contre le reste,7560,14785,Autres départs récents,4,0.6676052967311
+Languedoc contre le reste,3724,18621,Toutes (hors mémoire),156,0.988706417589464
+Languedoc contre le reste,3724,18621,Calendrier,12,0.600872758607144
+Languedoc contre le reste,3724,18621,Météo,21,0.731370388963502
+Languedoc contre le reste,3724,18621,Bilan hydrique,8,0.772740940304454
+Languedoc contre le reste,3724,18621,Végétation,79,0.970127726160207
+Languedoc contre le reste,3724,18621,État de la végétation,12,0.652078004512074
+Languedoc contre le reste,3724,18621,Relief et position,14,0.949611407399486
+Languedoc contre le reste,3724,18621,Présence humaine,6,0.710001098283004
+Languedoc contre le reste,3724,18621,Autres départs récents,4,0.548716854738979
+Provence contre le reste,3350,18995,Toutes (hors mémoire),156,0.965355447034373
+Provence contre le reste,3350,18995,Calendrier,12,0.624280993034302
+Provence contre le reste,3350,18995,Météo,21,0.798570417195413
+Provence contre le reste,3350,18995,Bilan hydrique,8,0.838009436890305
+Provence contre le reste,3350,18995,Végétation,79,0.94416521236932
+Provence contre le reste,3350,18995,État de la végétation,12,0.836763162340443
+Provence contre le reste,3350,18995,Relief et position,14,0.901708257868331
+Provence contre le reste,3350,18995,Présence humaine,6,0.729048084138403
+Provence contre le reste,3350,18995,Autres départs récents,4,0.529675303398773
+Roussillon-Aude contre le reste,3196,19149,Toutes (hors mémoire),156,0.994858530210128
+Roussillon-Aude contre le reste,3196,19149,Calendrier,12,0.558987899778896
+Roussillon-Aude contre le reste,3196,19149,Météo,21,0.801911853104281
+Roussillon-Aude contre le reste,3196,19149,Bilan hydrique,8,0.723783845557116
+Roussillon-Aude contre le reste,3196,19149,Végétation,79,0.987877573087828
+Roussillon-Aude contre le reste,3196,19149,État de la végétation,12,0.693719207210486
+Roussillon-Aude contre le reste,3196,19149,Relief et position,14,0.869172070080028
+Roussillon-Aude contre le reste,3196,19149,Présence humaine,6,0.572433761822101
+Roussillon-Aude contre le reste,3196,19149,Autres départs récents,4,0.556380481999701
+Var-Alpes-Maritimes contre le reste,3123,19222,Toutes (hors mémoire),156,0.991327713705141
+Var-Alpes-Maritimes contre le reste,3123,19222,Calendrier,12,0.525401111565215
+Var-Alpes-Maritimes contre le reste,3123,19222,Météo,21,0.72109098527667
+Var-Alpes-Maritimes contre le reste,3123,19222,Bilan hydrique,8,0.66151410256013
+Var-Alpes-Maritimes contre le reste,3123,19222,Végétation,79,0.982221146765436
+Var-Alpes-Maritimes contre le reste,3123,19222,État de la végétation,12,0.7118542257639
+Var-Alpes-Maritimes contre le reste,3123,19222,Relief et position,14,0.897872501266277
+Var-Alpes-Maritimes contre le reste,3123,19222,Présence humaine,6,0.69274669364504
+Var-Alpes-Maritimes contre le reste,3123,19222,Autres départs récents,4,0.513531848396708

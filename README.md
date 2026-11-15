@@ -17,7 +17,7 @@ Le dépôt contient le code qui produit tous les chiffres et toutes les figures 
 
 | Dossier | Contenu |
 |---|---|
-| `analyses/` | Code R : modèles, végétation, calcul 3 (cause probable), transfert, distances, figures |
+| `analyses/` | Code R : modèles, végétation, calcul 3 (cause probable), transfert, distances, valeurs de Shapley, classifieur discriminant entre zones, figures |
 | `calculs/` | Code Python des calculs 1 (lieu probable du départ, processus ponctuel) et 2 (brûlures MODIS) |
 | `historique/` | Feux BDIFF de 1997 à 2005 (date, commune, cause), utilisés par le calcul 3 |
 | `resultats/` | Figures de la présentation et tableaux de chiffres, déjà calculés |
@@ -26,6 +26,8 @@ Le dépôt contient le code qui produit tous les chiffres et toutes les figures 
 ## Données
 
 Télécharger le jeu de données sur Kaggle, [French Mediterranean Wildfires 2006-2024](https://www.kaggle.com/datasets/pierridotite/french-mediterranean-wildfires-2006-2024), et placer le fichier `feux_med_2006_2024.parquet` dans `donnees/final/`. La description des 276 colonnes est sur la page Kaggle (`data_dictionary.csv`).
+
+Les analyses R acceptent aussi la version `.csv` : placer `feux_med_2006_2024.csv` et `data_dictionary.csv` dans `donnees/final/`. Les types des colonnes (codes à zéros initiaux, modalités, dates) sont alors rétablis d'après le dictionnaire. Les calculs 1 et 2 (Python) demandent le `.parquet`.
 
 Le code de construction du jeu de données (interpolation de la météo, croisement des cartes de végétation, moyennes de pixels satellite) n'est pas dans ce dépôt.
 
@@ -66,7 +68,7 @@ python -X utf8 calculs/calcul2_02_variables.py
 Rscript analyses/lancer_tout.R
 ```
 
-Les scripts peuvent aussi se lancer un par un, dans l'ordre : `01_modeles.R` (échelle des modèles, mémoire des lieux, valeurs de Shapley), `02_calcul3_cause.R`, `03_calculs.R` (apport des trois calculs), `04_vegetation.R`, `05_enregistrement.R`, `06_transfert.R` (année par année, sud vers nord), `07_distances.R`, `08_figures.R`. Les scripts 03 et 04 ont besoin des sorties des calculs 1 et 2.
+Les scripts peuvent aussi se lancer un par un, dans l'ordre : `01_modeles.R` (échelle des modèles, mémoire des lieux, valeurs de Shapley), `02_calcul3_cause.R`, `03_calculs.R` (apport des trois calculs), `04_vegetation.R`, `05_enregistrement.R`, `06_transfert.R` (année par année, sud vers nord), `07_distances.R`, `09_shap.R` (valeurs et interactions de Shapley, environ 11 min), `10_zones.R` (classifieur discriminant entre zones, environ 42 min), `11_profils_zones.R` (distances de chaque zone au reste), `12_transfert_zones.R` (séparabilité et transfert, repondérage sud vers nord), puis `08_figures.R` en dernier, qui lit les sorties de tous les autres. Les scripts 03 et 04 ont besoin des sorties des calculs 1 et 2.
 
 ## Reproductibilité
 
